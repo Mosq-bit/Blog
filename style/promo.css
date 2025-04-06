@@ -30,16 +30,16 @@
 
 .promo__card-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), 
-     url(/assets/webp/card-1.webp);
+     url(/Blog/assets/webp/card-1.webp);
 
 }
 .promo__card-2{
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(/assets/webp/card-2.webp); 
+    url(/Blog/assets/webp/card-2.webp); 
 }
 .promo__card-3{
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), 
-    url(/assets/webp/card-3.webp);
+    url(/Blog/assets/webp/card-3.webp);
 }
 
 .previe-icon {
