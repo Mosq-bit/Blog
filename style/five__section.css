@@ -1,0 +1,140 @@
+.five__section {
+    margin: 67px 0 228px 0;
+}
+
+.five__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 70px;
+
+}
+
+.five__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.five__content-descr {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 183%;
+    color: var(--black);
+}
+
+.five__content-title {
+    position: relative;
+    margin: 40px 0 0 77px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.five__content-pic {
+    position: absolute;
+    top: 6px;
+    left: -54px;
+}
+
+.five__content-sub {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 183%;
+    color: #121416;
+}
+
+.five__content-sub--title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #121416;
+}
+
+.five__content-sub--descr {}
+
+.five__content-sub-list {
+    margin: 4px 0 4px 64px;
+}
+
+.five__sub-list {
+    list-style-type: disc;
+
+}
+
+.five__sub-item {}
+@media (max-width:1000px){
+    .five__section {
+        margin: 30px 0 80px 0;
+    }
+    .five__content-title {
+        font-size: 30px;
+    }
+    .five__content-sub--title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:684px) {
+    .five__wrapper {
+        gap: 20px;
+    }
+    .five__wrapper {
+        flex-direction: column;
+    }
+
+    .five__content {
+        gap: 10px;
+    }
+
+    .five__content-title {
+        font-size: 30px;
+    }
+    
+.five__content-sub--title {
+    font-size: 28px;
+}
+
+    .five__content-descr {
+        font-size: 16px;
+    }
+    .five__content-sub--descr {
+        font-size: 16px;
+    }
+    .five__sub-item{
+        font-size: 16px;
+    }
+
+}
+@media (max-width:600px){
+    .five__content-title {
+        font-size: 20px;
+    }
+    .five__content-sub--title {
+        font-size: 18px;
+    }
+    .five__content-descr {
+        font-size: 12px;
+    }
+   
+    .five__content-sub--descr {
+        font-size: 12px;
+    }
+    .five__sub-item{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,141 @@
+.header__section {
+    padding: 0 15px;
+    position: relative;
+    height: 900px;
+    background:linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), 
+    url(/assets/webp/hero-bg.webp);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+}
+
+
+.header {
+    padding-top: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 159px;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__nav-item {}
+
+.header__nav-link {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase;
+    transition: all .2s ease-in;
+}
+
+.header__nav-link:hover {
+    text-shadow: 1px 1px 2px black;
+}
+
+.lang-butt {
+    padding: 5px;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+
+    text-transform: lowercase;
+    transition: border .2s ease-in;
+    display: none;
+}
+.lang-butt:hover{
+    
+}
+.goog-te-gadget {
+    /* display: none; */
+
+}
+.header__search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 27px;
+}
+
+.header__search img {
+    cursor: pointer;
+}
+
+.header__search-btn {
+    padding: 17px 40px;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width:1730px) {
+    .header {
+        gap: 37px
+    }
+
+.header__nav-list {
+    gap: 15px
+}
+.header__nav-link {
+    font-size: 16px;
+}
+.header__search-btn {
+    padding: 17px;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+}
+@media (max-width:1369px) {
+    .header__nav-list {
+        gap: 8px;
+    
+}
+}
+@media (max-width:1333px) {
+    .header__nav-list {
+        gap: 8px;
+    }
+    .header__nav-link{
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:1290px) {
+    .header {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+
+.header__nav-link {
+    font-size: 14px;
+}
+.header__search-btn {
+    padding: 12px;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+}
+.header__search img {
+    width: 26px;
+    height: 26px;
+}
+}
+@media (max-width:510px){
+    .header__nav-list{
+        display: none;
+    }
+}}

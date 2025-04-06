@@ -1,0 +1,11 @@
+.five__rules {
+    padding: 0 15px;
+    position: relative;
+    height: 900px;
+    background:linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), 
+    url(/assets/webp/BG-2.webp);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+}

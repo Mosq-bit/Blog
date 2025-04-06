@@ -1,0 +1,231 @@
+.five__five-section {}
+
+.five__hero {
+    color: var(--white);
+}
+
+.five__hero-info {
+    max-width: 1084px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+.five__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+
+.five__descr {
+    max-width: 1023px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.five__design {
+    /* max-width: 647px; */
+    margin-top: 4px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    gap: 10px;
+}
+
+.five__design-name {
+    display: flex;
+    align-items: center;
+
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: var(--white);
+}
+
+.design-icon-line {
+    width: 20px;
+    height: 1px;
+    fill: var(--white);
+    stroke: var(--white);
+}
+
+.five__design-time {
+    display: flex;
+    align-items: center;
+
+    font-family: var(--second-family);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.design-icon-clock {
+    width: 24px;
+    height: 24px;
+    fill: var(--white);
+    stroke: var(--white);
+}
+
+.five__design-views {
+    display: flex;
+    align-items: end;
+    font-family: var(--second-family);
+    font-size: 16px;
+    line-height: 250%;
+}
+
+.design-icon-views {
+    width: 24px;
+    height: 24px;
+    fill: var(--white);
+    stroke: var(--white);
+}
+
+.five__design-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+}
+
+.design-icon-social {
+    width: 24px;
+    height: 24px;
+    fill: var(--white);
+    stroke: var(--white);
+}
+
+@media (max-width:1730px) {
+    .five__title {
+        font-size: 58px;
+
+
+    }
+
+    .five__descr {
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width:1590px) {
+    .five__section {
+        left: 145px;
+    }
+}
+
+@media (max-width:1290px) {
+    .five__title {
+        font-size: 48px;
+
+
+    }
+
+    .five__descr {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width:1195px) {
+
+    .five__title {
+        font-size: 32px;
+
+
+    }
+
+    .five__descr {
+        font-size: 16px;
+    }
+
+}
+@media (max-width:915px) {
+    .five__hero-section {
+        left: 85px;
+    }
+    .five__design-name{
+        font-size: 16px;
+    }
+    .five__design-time {
+        font-size: 14px;
+    }
+    .five__design-time {
+        font-size: 14px;
+    }
+    .five__design-social{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width:753px){
+    
+    .design-icon-line {
+        display: none;
+    }
+    
+    .five__design-time {
+        display: none;
+    }
+    
+    .design-icon-clock {
+        display: none;
+    }
+    
+    .five__design-views {
+        display: none;
+    }
+    
+    .design-icon-views {
+        display: none;
+    }
+    
+    .five__design-social {
+        display: none;
+    }
+    
+    .design-icon-social {
+       display: none;
+    }
+}
+
+@media (max-width:683px) {
+    .five__hero-section {
+        left: 18px;
+    }
+    .five__design {
+        flex-wrap: wrap;
+    }
+
+    .five__title {
+        font-size: 22px;
+    }
+
+    .five__descr {
+        font-size: 14px;
+    }
+    .five__design-name{
+        font-size: 14px;
+    }
+    .five__design-views {
+        font-size: 12px;
+    }
+    .five__design-time {
+        font-size: 12px;
+    }
+    .five__design-social{
+        font-size: 12px;
+    }
+}

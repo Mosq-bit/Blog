@@ -1,0 +1,46 @@
+@import url(/style/font/ofont.ru_Europe.ttf);
+@import url(/style/font/Europa.ttf);
+
+html{
+    /* плавный скрол */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Europa-Bold", sans-serif;
+    font-weight: 400;
+    color: var(--black);
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1790px;
+
+}
+
+
+.btn{
+    transition: all .2s ease-in;
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+
+.divider {
+    /* будет стараться быть 100% но не больше 420 */
+    /* max-width: 420px;
+    width: 100%; */
+    width: min(1760px, 100%);
+
+    margin: -25px auto;
+    height: 2px;
+    background-color: #D6D6D6;
+}
+
+.none{
+    display: none;
+}

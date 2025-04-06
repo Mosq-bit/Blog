@@ -1,0 +1,85 @@
+.travel__section {
+    height: 600px;
+    margin-top: 90px;
+    background: url(/assets/webp/travel-bg.webp) no-repeat center / cover;
+}
+
+.travel {
+    margin: 0 auto;
+    padding-top: 163px;
+    max-width: 986px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.travel__name {
+    padding: 0 10px;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    color: var(--white);
+
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.travel__title {
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--white);
+}
+
+.travel__descr {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #e5e5e5;
+}
+
+.travel__btn {
+    margin-top: 20px;
+    border: 1px solid #7f7d85;
+    border-radius: 2px;
+    padding: 20px 48px;
+    background: var(--white);
+    font-size: 20px;
+    color: #7a65e1;
+}
+@media (max-width:876px){
+    .travel__title{
+        font-size: 32px;
+    }
+    .travel__descr {
+        font-size: 18px;
+    }
+    .travel__btn {
+        padding: 10px 24px;
+        font-size: 18px;
+    }
+    .travel__name {
+
+        font-size: 18px;
+    }
+}
+@media (max-width:442px){
+    .travel__title{
+        font-size: 22px;
+    }
+    .travel__descr {
+        font-size: 16px;
+    }
+    .travel__btn {
+
+        font-size: 16px;
+    }
+    .travel__name {
+
+        font-size: 16px;
+    }
+}
