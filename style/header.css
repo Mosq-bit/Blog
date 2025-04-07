@@ -54,10 +54,12 @@
 .lang-butt:hover{
     
 }
-.goog-te-gadget {
-    /* display: none; */
-
+.lang-btn {
+    position: absolute;
+    top: 10px;
+    left: 134px;
 }
+
 .header__search {
     display: flex;
     justify-content: space-between;
